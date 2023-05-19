@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* リーリース時には消すこと!!! */
+* {
+  /* outline: 1px rgba(255, 0, 0, 0.8) solid; */
+}
+/* 変数の定義 */
+:root {
+  --content-width: 1000px;
+  --min-content-width: 375px;
+}
+html {
+/* コンテンツ幅でのフォントサイズ */
+  font-family: kozuka-gothic-pr6n, sans-serif;
+  font-style: normal;
+          font-weight: 400;
+  font-size: clamp(1px, 1.6vw, 16px);
+}
+
+
+
+/************************************************
+    レスポンシブ対応 */
+
+@media screen and (max-width: 767px) {
+}

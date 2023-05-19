@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="./css/destyle.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>Document</title>
+  <!-- https://ueda-shinya.github.io/adobefont/ -->
+
+  <!-- 1個だけ -->
+  <!-- kitId: 'wno3euf', -->
+
+
+
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'aaj8mwm',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+</head>
+
+<body>
+  PayPalでの決済をウェブサイトに埋め込む作業は、いくつかのステップが必要ですが、基本的には非常に直感的であり、多くの場合、プログラミングの専門知識は必要ありません。
+
+  PayPalが提供している「ビジネス向けソリューション」はウェブサイトに組み込むことができ、以下の手順になります：
+
+  PayPalのビジネスアカウントを作成します。
+  PayPalのウェブサイト上で「購入ボタン」を作成します。この時点で、商品名、価格、通貨、他の詳細を指定できます。
+  ボタンを作成すると、PayPalはHTMLコードを生成します。このコードをコピーしてウェブサイトの適切な場所に貼り付けます。
+  これにより、顧客はそのボタンをクリックすることでPayPalのペイメントページにリダイレクトされ、そこで決済を行うことができます。
+  この方法は最も簡単で、専門的なスキルを必要としませんが、一方でカスタマイズ性には限りがあります。
+
+  より複雑な決済フローを実装したい場合や、より細かいカスタマイズをしたい場合には、PayPalのAPIを使用して自分で決済システムを組み立てることも可能です。しかし、これには一定のプログラミング知識と時間が必要となります。
+
+  最終的にどの方法を選択するかは、あなたのウェブサイトのニーズとスキルセットによるところが大きいでしょう。
+
+
+</body>
+
+</html>
