@@ -10,14 +10,17 @@
   --min-content-width: 375px;
 }
 html {
-/* コンテンツ幅でのフォントサイズ */
+  /* コンテンツ幅でのフォントサイズ */
   font-family: kozuka-gothic-pr6n, sans-serif;
   font-style: normal;
-          font-weight: 400;
+  font-weight: 400;
   font-size: clamp(1px, 1.6vw, 16px);
 }
 
-
+section {
+  font-size: 36px;
+  font-weight: 900;
+}
 
 /************************************************
     レスポンシブ対応 */
